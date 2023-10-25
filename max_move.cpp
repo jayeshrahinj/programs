@@ -35,9 +35,8 @@ int main() {
     vector<vector<int>> grid2 = {{3, 2, 4}, {2, 1, 9}, {1, 1, 7}};
 
     int result1 = maxMoves(grid1);
-    int result2 = maxMoves(grid2);
-
-    cout << "Example 1: " << result1 << endl;
+   
+    cout  << result1 << endl;
      
     return 0;
 }
